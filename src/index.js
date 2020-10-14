@@ -3,6 +3,7 @@ import * as global from "./shared/global";
 
 export { styles, global };
 
+export * from "./components/badge/badge"
 export * from "./components/buttons/Button";
 export * from "./components/card/Card";
 export * from "./components/card/CardBody";
@@ -19,6 +20,6 @@ export * from "./components/forms/Input";
 export * from "./components/forms/Label";
 export * from "./components/forms/Select";
 export * from "./components/forms/Slider";
-export * from "./components/forms/Switch";
+// export * from "./components/forms/Switch";
 export * from "./components/forms/TextArea";
 export * from "./components/forms/Toggle";
